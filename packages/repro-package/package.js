@@ -20,5 +20,5 @@ Package.onTest(function(api) {
   api.use('repro-package');
   api.use('ecmascript');
   api.use('practicalmeteor:mocha@2.4.5_2');
-  api.addFiles('repro-package.tests.js');
+  api.addFiles('repro-package.tests.js', 'client');
 });

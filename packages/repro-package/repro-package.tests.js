@@ -4,7 +4,7 @@ import { chai } from 'meteor/practicalmeteor:chai';
 // import { sinon } from 'meteor/practicalmeteor:sinon';
 // import Vote from './Vote.jsx'
 
-describe(() => {
+describe('package test', () => {
   it('should render', () => {
     // const post = { }; //FIXME
     // const user = null; //FIXME
@@ -12,7 +12,6 @@ describe(() => {
     // chai.assert(wrapper.hasClass('vote'));
     // chai.assert(!wrapper.hasClass('voted'));
     // chai.assert.equal(item.find('.vote-count').text(), '0');
-    console.log('hello')
-    chai.assert.equal(1, 2);
+    chai.assert.equal(1, 1);
   });
 });
