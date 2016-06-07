@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.3.2.4');
   api.use('ecmascript');
+  api.addFiles('Vote.jsx', ['client', 'server']);
   api.mainModule('repro-package.js');
 });
 
@@ -22,3 +23,7 @@ Package.onTest(function(api) {
   api.use('practicalmeteor:mocha@2.4.5_2');
   api.addFiles('repro-package.tests.js', 'client');
 });
+
+// Npm.depends({
+//   react: '15.0.1'
+// });
